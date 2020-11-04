@@ -31,7 +31,7 @@ public class Main {
 
         for(int i=0; i < counts.length;i++){//look for max length of consecutive counts>0
 
-            if(counts[i]!=0)
+            if(counts[i]>0)
                 length++;
             else
                 length=0;
