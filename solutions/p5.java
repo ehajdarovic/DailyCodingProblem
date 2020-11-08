@@ -2,11 +2,14 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println("Hello World!");
+        
         int a[]={-1, 5, 13, 8, 2, 3, 3, 1};
         int k=3;//window size 3
+        medianWindow(a,k);
+    }
 
+
+    public static void medianWindow(int[] a, int k){
 
         for(int i=0;i<a.length && i<=a.length-k;i++){
 
