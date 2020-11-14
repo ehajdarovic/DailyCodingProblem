@@ -1,5 +1,5 @@
 # DailyCodingProblems
-This is where I will put my daily coding for interesting practice problems I find.
+This is where I will put my daily coding for interesting practice problems I find or make on my own!
 
 ### Problem 1
 
@@ -53,6 +53,7 @@ Write a function that takes a natural number as input and returns the number of 
 
 Constraint: don't use any loops.
 
+
 [Solution](solutions/p2.java)
 
 
@@ -66,6 +67,7 @@ Given a list of integers L, find the maximum length of a sequence of consecutive
 
 For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequence [1, 2, 3, 4, 5] which has length 5.
 
+
 [Solution](solutions/p3.java)
 
 
@@ -78,6 +80,7 @@ This problem was asked by Amazon.
 Given a sorted array arr of distinct integers, return the lowest index i for which arr[i] == i. Return null if there is no such index.
 
 For example, given the array [-5, -3, 2, 3], return 2 since arr[2] == 2. Even though arr[3] == 3, we return 2 since it's the lowest index.
+
 
 [Solution](solutions/p4.java)
 
@@ -120,5 +123,15 @@ Bonus: Can you do it in O(log n) time?
 
 
 [Solution](solutions/p6.java)
+
+
+### Problem 6
+
+Source: me
+
+Make a program that gives users their zodiac sign after they enter the numerical month and day. Implement a formula that will allow compiler to find zodiac sign with the least steps as possible. 
+
+
+[Solution](solutions/p7.java)
 
 
