@@ -21,7 +21,7 @@ public class Main {
 
              for(int j=i;j>=0;j--) {
                  while (rem >= c[j]) {
-                     rem -= c[j];//remaining of div will be remainder
+                     rem -= c[j];//remaining will be remainder
                      amount++;
                  }
                  if(rem==0)//means satisfactory combo was found
