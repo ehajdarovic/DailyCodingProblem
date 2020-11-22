@@ -150,3 +150,25 @@ Given an array of [5, 8] and an amount 15, return 3 since we can use 5 5-cent co
 
 [Solution](solutions/p8.java)
 
+
+### Problem 9
+
+Source: https://www.dailycodingproblem.com/
+
+This problem was asked by Facebook.
+
+We have some historical clickstream data gathered from our site anonymously using cookies. The histories contain URLs that users have visited in chronological order.
+
+Write a function that takes two users' browsing histories as input and returns the longest contiguous sequence of URLs that appear in both.
+
+For example, given the following two users' histories:
+
+user1 = ['/home', '/register', '/login', '/user', '/one', '/two']
+user2 = ['/home', '/red', '/login', '/user', '/one', '/pink']
+You should return the following:
+
+['/login', '/user', '/one']
+
+
+[Solution](solutions/p9.java)
+
